@@ -13,6 +13,8 @@
 		DA32AA7625B4A738001D82DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA32AA7525B4A738001D82DF /* Preview Assets.xcassets */; };
 		DA32AA8125B4A738001D82DF /* HapticFeedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32AA8025B4A738001D82DF /* HapticFeedbackTests.swift */; };
 		DA32AA8C25B4A738001D82DF /* HapticFeedbackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32AA8B25B4A738001D82DF /* HapticFeedbackUITests.swift */; };
+		DA32AA9D25B4B1BB001D82DF /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32AA9C25B4B1BB001D82DF /* PlaySound.swift */; };
+		DA32AAA225B4B837001D82DF /* Bell-Tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA32AAA125B4B837001D82DF /* Bell-Tree.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		DA32AA8725B4A738001D82DF /* HapticFeedbackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticFeedbackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA32AA8B25B4A738001D82DF /* HapticFeedbackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackUITests.swift; sourceTree = "<group>"; };
 		DA32AA8D25B4A738001D82DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA32AA9C25B4B1BB001D82DF /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		DA32AAA125B4B837001D82DF /* Bell-Tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bell-Tree.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				DA32AA7225B4A738001D82DF /* Assets.xcassets */,
 				DA32AA7725B4A738001D82DF /* Info.plist */,
 				DA32AA7425B4A738001D82DF /* Preview Content */,
+				DA32AA9C25B4B1BB001D82DF /* PlaySound.swift */,
+				DA32AAA125B4B837001D82DF /* Bell-Tree.mp3 */,
 			);
 			path = HapticFeedback;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA32AA7625B4A738001D82DF /* Preview Assets.xcassets in Resources */,
+				DA32AAA225B4B837001D82DF /* Bell-Tree.mp3 in Resources */,
 				DA32AA7325B4A738001D82DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA32AA7125B4A737001D82DF /* ContentView.swift in Sources */,
+				DA32AA9D25B4B1BB001D82DF /* PlaySound.swift in Sources */,
 				DA32AA6F25B4A737001D82DF /* HapticFeedbackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
